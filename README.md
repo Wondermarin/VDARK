@@ -12,10 +12,11 @@
 ## How Install?
 
 To use the theme, you need to install the [Stylus](https://add0n.com/stylus.html) extension.
-
 Then click on the button below.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0)
+
+Or use the [userstyles](https://userstyles.org/styles/167283/vdark-2-1-1) version
 
 ## License
 
