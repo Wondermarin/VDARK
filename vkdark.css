@@ -344,7 +344,7 @@ a b, b a {
 }
 
 .deep_active .replies .reply_box div.submit_post_field, .deep_active .replies .reply_box div.submit_post_field[contenteditable=true], .deep_active .replies .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active .replies .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .replies .reply_box div.submit_post_field, .deep_active.wall_module .replies .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .replies .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active.wall_module .replies .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .wl_replies_block_wrap .reply_box div.submit_post_field, .deep_active.wall_module .wl_replies_block_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active .wl_replies_block_wrap .reply_box div.submit_post_field, .deep_active .wl_replies_block_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true] {
-	border-color: #5c5c5c;
+	border-color: #2c2c2c;
 }
 
 .wall_module .reply_box, .wall_module .reply_fakebox_wrap {
@@ -352,7 +352,7 @@ a b, b a {
 }
 
 .deep_active .replies .replies_list:empty, .deep_active.wall_module .replies .replies_list:empty, .deep_active.wall_module .wl_replies_block_wrap .replies_list:empty, .deep_active .wl_replies_block_wrap .replies_list:empty {
-	border-top: 1px solid #5c5c5c;
+	border-top: 1px solid #2c2c2c;
 }
 
 .ms_items_more {
@@ -3792,9 +3792,9 @@ h1 {
 }
 
 .wall_module .reply.reply_highlighted {
-	background: #3c3c3c;
-    border-top-color: #5c5c5c;
-    border-bottom-color: #5c5c5c;
+	background: #2c2c2c;
+    border-top-color: #2c2c2c;
+    border-bottom-color: #2c2c2c;
 }
 
 .im-page.im-page_classic.im-page_group .im-group-online.im-group-online-offline .im-group-online--beacon-wrapper {
@@ -6649,6 +6649,22 @@ a.wk_ext_link {
 
 .like_share_ava.wdd_imgs .wdd_img_full, .like_share_ava.wdd_imgs .wdd_img_half, .like_share_ava.wdd_imgs .wdd_img_tiny {
 	border-color: #2c2c2c;
+}
+
+.deep_active .replies .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox, .deep_active.wall_module .replies .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox, .deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox, .deep_active .wl_replies_block_wrap .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox {
+	border-color: #2c2c2c;
+}
+
+.deep_active .replies .replies_wrap_deep .reply_to_title .reply_to_cancel, .deep_active.wall_module .replies .replies_wrap_deep .reply_to_title .reply_to_cancel, .deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep .reply_to_title .reply_to_cancel, .deep_active .wl_replies_block_wrap .replies_wrap_deep .reply_to_title .reply_to_cancel {
+	background: url(https://svgshare.com/i/DY7.svg) no-repeat 50%;
+}
+
+.wall_module .reply_to_title {
+	color: #aaa;
+}
+
+.box_no_buttons[style*='0);'], .box_no_buttons[style*='1);'], .box_no_buttons[style*='2);'], .box_no_buttons[style*='3);'], .box_no_buttons[style*='4);'], .box_no_buttons[style*='5);'], .box_no_buttons[style*='6);'], .box_no_buttons[style*='7);'], .box_no_buttons[style*='8);'], .box_no_buttons[style*='9);'], .box_no_buttons[style$='1);'], .box_no_buttons[style$='2);'], .box_no_buttons[style$='3);'], .box_no_buttons[style$='4);'], .box_no_buttons[style$='5);'], .box_no_buttons[style$='6);'], .box_no_buttons[style$='7);'], .box_no_buttons[style$='8);'], .box_no_buttons[style$='9);'], ._post[style$='1);'], ._post[style$='2);'], ._post[style$='3);'], ._post[style$='4);'], ._post[style$='5);'], ._post[style$='6);'], ._post[style$='7);'], ._post[style$='8);'], ._post[style$='9);'], ._post[style$='0);'] {
+	background-color: #202020!important;
 }
 
 /* Other */
