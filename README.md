@@ -1,5 +1,5 @@
 # VDARK
-*Perhaps the best dark theme for VK*
+Perhaps the best dark theme for VK
 
 ## Preview
 `Version 2.1`
@@ -9,14 +9,17 @@
 ![Музыка](https://i.imgur.com/hYwTFO0.png "Музыка")
 ![Сообщества](https://i.imgur.com/ykODJV3.png "Сообщества")
 
-## How Install?
+## Quick Installation
 
-To use the theme, you need to install the [Stylus](https://add0n.com/stylus.html) extension.
-Then click on the button below.
+**Stylus (Recommend):**
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0)
+1. Intall [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
+2. Click the button [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0).
 
-Or use the [userstyles](https://userstyles.org/styles/167283/vdark-2-1-1) version
+Stylish:
+
+1. Install [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe).
+2. Install the theme on [userstyles](https://userstyles.org/styles/167283/vdark-2-1-2).
 
 ## License
 
