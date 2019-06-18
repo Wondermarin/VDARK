@@ -4,7 +4,7 @@
 @namespace    https://github.com/Wondermarin/VDARK
 @homepageURL  https://github.com/Wondermarin/VDARK
 @updateURL    https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0
-@version      2.1.4
+@version      2.1.5
 @author       Wondermarin
 @license      CC-BY-NC-4.0
 @preprocessor uso
@@ -232,6 +232,14 @@
 
     .market_fav_btn.selected:before {
         background: url(https://svgshare.com/i/DcQ.svg);
+    }
+
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value.line_edit .line_div_icon {
+        background: url(https://svgshare.com/i/DeS.svg) no-repeat;
+    }
+
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_value.empty {
+        color: #72aef6;
     } EOT;
   l2 "Orange" <<<EOT
     .audio_row .audio_row__performers a {
@@ -455,6 +463,14 @@
 
     .market_fav_btn.selected:before {
         background: url(https://svgshare.com/i/DcR.svg);
+    }
+
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value.line_edit .line_div_icon {
+        background: url(https://svgshare.com/i/Dgu.svg) no-repeat;
+    }
+
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_value.empty {
+        color: #f59971;
     } EOT;
   l3 "Purple" <<<EOT
     .audio_row .audio_row__performers a {
@@ -678,12 +694,33 @@
 
     .market_fav_btn.selected:before {
         background: url(https://svgshare.com/i/DbM.svg);
+    }
+
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value.line_edit .line_div_icon {
+        background: url(https://svgshare.com/i/Dgm.svg) no-repeat;
+    }
+
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_value.empty {
+        color: #be71f5;
+    } EOT;
+}
+
+@advanced dropdown ads "Display ads?" {
+  a1 "Yes" <<<EOT
+    #ads_left {
+        display: block;
+    } EOT;
+  a2 "No" <<<EOT
+    #ads_left {
+        display: none !important;
     } EOT;
 }
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
     /*[[linkcolor]]*/
+    
+    /*[[ads]]*/
 
     body {
         background: #121212;
@@ -1320,7 +1357,7 @@
     }
     
     .post_actions_btns {
-        border-top: 1px solid #5c5c5c;
+        border-top: 1px solid #2c2c2c;
     }
     
     .media_selector .ms_item_more_label {
@@ -1337,16 +1374,16 @@
     }
     
     .my_current_info:hover, .no_current_info:hover {
-        background-color: #3c3c3c;
+        background-color: #252525;
     }
     
     .no_current_info {
-        color: #999;
+        color: #aaa;
     }
     
     .page_status_editor .editor {
-        background-color: #2c2c2c;
-        border: 1px solid transparent;
+        background-color: #1c1c1c;
+        border-color: #2c2c2c;
     }
     
     .chat_onl_inner {
@@ -1585,17 +1622,17 @@
     }
     
     .video_choose_upload_area {
-        background: #1c1c1c;
+        background: #161616;
         color: #ddd;
     }
     
     .video_add_external {
-        background-color: #1c1c1c;
+        background-color: #161616;
         color: #ddd;
     }
     
     #video_choose_wrap {
-        background: #2c2c2c;
+        background: #1c1c1c;
     }
     
     .ui_search_new .ui_search_input_inner {
@@ -1623,15 +1660,15 @@
     }
     
     .video_choose_upload_separator {
-        background-color: #5c5c5c;
+        background-color: #2c2c2c;
     }
     
     .video_choose_upload_area:hover {
-        background: #3c3c3c;
+        background: #181818;
     }
     
     .video_add_external:hover {
-        background: #3c3c3c;
+        background: #181818;
     }
     
     .subheader, h4.subheader {
@@ -1647,7 +1684,7 @@
     }
     
     .video_item_info {
-        color: #999;
+        color: #aaa;
     }
     
     ::-webkit-scrollbar {
@@ -1949,7 +1986,7 @@
     
     .deep_active .replies .reply_fakebox, .deep_active.wall_module .replies .reply_fakebox, .deep_active.wall_module .wl_replies_block_wrap .reply_fakebox, .deep_active .wl_replies_block_wrap .reply_fakebox {
         background-color: transparent;
-        border: 1px solid #5c5c5c;
+        border: 1px solid #2c2c2c;
     }
     
     .wl_post_reply_form_forbidden {
@@ -3385,23 +3422,35 @@
     }
     
     .groups_create_type .groups_create_tile_title {
-        color: #ddd;
+        color: #fff;
     }
     
     .groups_create_type .groups_create_tile_description {
-        color: #999;
+        color: #aaa;
     }
     
     .groups_create_type .groups_create_tile:hover {
-        background-color: #3c3c3c;
+        background-color: #252525;
     }
     
     .groups_create_box .groups_create_box_title {
-        color: #ddd;
+        color: #fff;
     }
     
     .groups_create_box .groups_create_box_about {
-        color: #999;
+        color: #aaa;
+    }
+    
+    .groups_create_box .groups_create_box_field_label {
+        color: #aaa;
+    }
+    
+    .groups_create_box .groups_create_box_field_date .groups_create_box_field_date_at_time {
+        color: #aaa;
+    }
+    
+    #add_place_data {
+        background: #1c1c1c;
     }
     
     .result_list ul li.sectioned.section {
@@ -3985,7 +4034,7 @@
     }
     
     .group_box_extra .info_address, .group_box_extra .info_email, .group_box_extra .info_email a, .group_box_extra .info_phone {
-        color: #999;
+        color: #aaa;
     }
     
     .group_box_extra .info_icon_email, .group_box_extra .info_icon_phone {
@@ -3993,11 +4042,24 @@
     }
     
     .group_box_row {
-        border-bottom: 1px solid #5c5c5c;
+        border-bottom: 1px solid #2c2c2c;
     }
     
     .group_box_row:last-child {
-        border-bottom: 1px solid #5c5c5c;
+        border-bottom: 1px solid #1c1c1c;
+    }
+    
+    .group_box_list .sort_helper {
+        border-bottom-color: #2c2c2c;
+    }
+    
+    .group_box_row.sort_taken, .group_box_row.sort_taken:last-child {
+        background-color: #252525;
+        border-bottom: 1px solid #2c2c2c;
+    }
+    
+    .group_box_list .sort_helper.sort_helper_last {
+        border-bottom-color: #1c1c1c;
     }
     
     .group_box_row .group_box_delete, .group_box_row .group_box_edit, .group_box_row .group_box_progress {
@@ -4445,7 +4507,7 @@
     }
     
     .bp_author {
-        color: #ddd;
+        color: #fff;
     }
     
     .bp_post {
@@ -5963,8 +6025,8 @@
     
     .owner_photo_additional {
         background: #1c1c1c;
-        color: #ddd;
-        border-top-color: #5c5c5c;
+        color: #aaa;
+        border-top-color: #2c2c2c;
     }
     
     .page_docs_preview .page_media_x_wrap .page_media_x {
@@ -7471,6 +7533,63 @@
     
     .ui_search_filters_reset {
         background: url(https://i.imgur.com/5eUIRSl.png) no-repeat 50%;
+    }
+    
+    .page_upload_label {
+        background: url(https://i.imgur.com/ro16Vgl.png) no-repeat;
+    }
+    
+    .video_choosebox_bottom {
+        background-color: #1c1c1c;
+        border-top-color: #2c2c2c;
+    }
+    
+    .video_item .video_restore {
+        background-color: hsla(0,0%,11%,.8);
+    }
+    
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value.line_edit, .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value:hover {
+        background-color: #252525;
+    }
+    
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_icon {
+        background: url(https://svgshare.com/i/Ded.svg) no-repeat;
+    }
+    
+    .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_icon.edit {
+        background: url(https://svgshare.com/i/Ddx.svg) no-repeat;
+    }
+    
+    .group_help_desc {
+        color: #aaa;
+    }
+    
+    .gtop_complex_message .gtop_content .gtop_header {
+        color: #fff;
+    }
+    
+    .gtop_complex_message .gtop_content .gtop_message {
+        color: #aaa;
+    }
+    
+    #gtop_first_post_to_wall {
+        border-bottom-color: #2c2c2c;
+    }
+    
+    .group_help_hide {
+        background: url(https://svgshare.com/i/Dcf.svg) no-repeat 50% 50%;
+    }
+    
+    .public_help_block {
+        color: #fff;
+    }
+    
+    .page_avatar.no_avatar {
+        background: url(https://i.imgur.com/e2O2iu5.png) no-repeat 0 0;
+    }
+    
+    .bp_text > a {
+        color: #72aef6;
     }
     
     /* Other */
