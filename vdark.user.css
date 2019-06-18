@@ -240,6 +240,10 @@
 
     .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_value.empty {
         color: #72aef6;
+    }
+    
+    .bp_text > a {
+        color: #72aef6;
     } EOT;
   l2 "Orange" <<<EOT
     .audio_row .audio_row__performers a {
@@ -471,6 +475,10 @@
 
     .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_value.empty {
         color: #f59971;
+    }
+    
+    .bp_text > a {
+        color: #f59971;
     } EOT;
   l3 "Purple" <<<EOT
     .audio_row .audio_row__performers a {
@@ -701,6 +709,10 @@
     }
 
     .group_info_rows_redesign .group_info_row.onboarding_placeholder .line_value .line_div_value.empty {
+        color: #be71f5;
+    }
+    
+    .bp_text > a {
         color: #be71f5;
     } EOT;
 }
@@ -7586,10 +7598,6 @@
     
     .page_avatar.no_avatar {
         background: url(https://i.imgur.com/e2O2iu5.png) no-repeat 0 0;
-    }
-    
-    .bp_text > a {
-        color: #72aef6;
     }
     
     /* Other */
