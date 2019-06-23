@@ -4,7 +4,7 @@
 @namespace    https://github.com/Wondermarin/VDARK
 @homepageURL  https://github.com/Wondermarin/VDARK
 @updateURL    https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0
-@version      2.1.6
+@version      2.1.7
 @author       Wondermarin
 @license      CC-BY-NC-4.0
 @preprocessor uso
@@ -272,6 +272,14 @@
 
     .audio_numeric .audio_row .audio_row__sound_bars {
         filter: hue-rotate(1deg)saturate(.86)brightness(1.68);
+    }
+    
+    .replies_short_text_name > b {
+        color: #72aef6;
+    }
+
+    .audio_page_player2 .audio_page_player_fave.activated .btn_icon {
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M15.343 8.485l4.43.425c1.541.148 2.014 1.653.824 2.643l-3.468 2.882 1.287 4.695c.423 1.542-.889 2.475-2.202 1.547L12 17.701l-4.214 2.976c-1.308.925-2.625-.005-2.202-1.547l1.287-4.695-3.468-2.882c-1.195-.994-.724-2.495.824-2.643l4.429-.425 1.95-4.499c.612-1.408 2.177-1.408 2.787 0l1.95 4.499z' id='a'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd' %3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cuse fill='%2372aef6' xlink:href='%23a'/%3E%3C/g%3E%3C/svg%3E");
     } EOT;
   l2 "Orange" <<<EOT
     .audio_row .audio_row__performers a {
@@ -535,6 +543,14 @@
 
     .audio_numeric .audio_row .audio_row__sound_bars {
         filter: hue-rotate(161deg)saturate(.84)brightness(1.72);
+    }
+    
+    .replies_short_text_name > b {
+        color: #f59971;
+    }
+
+    .audio_page_player2 .audio_page_player_fave.activated .btn_icon {
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M15.343 8.485l4.43.425c1.541.148 2.014 1.653.824 2.643l-3.468 2.882 1.287 4.695c.423 1.542-.889 2.475-2.202 1.547L12 17.701l-4.214 2.976c-1.308.925-2.625-.005-2.202-1.547l1.287-4.695-3.468-2.882c-1.195-.994-.724-2.495.824-2.643l4.429-.425 1.95-4.499c.612-1.408 2.177-1.408 2.787 0l1.95 4.499z' id='a'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd' %3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cuse fill='%23f59971' xlink:href='%23a'/%3E%3C/g%3E%3C/svg%3E");
     } EOT;
   l3 "Purple" <<<EOT
     .audio_row .audio_row__performers a {
@@ -798,6 +814,14 @@
 
     .audio_numeric .audio_row .audio_row__sound_bars {
         filter: hue-rotate(60deg)saturate(1.27)brightness(1.41);
+    }
+    
+    .replies_short_text_name > b {
+        color: #be71f5;
+    }
+
+    .audio_page_player2 .audio_page_player_fave.activated .btn_icon {
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M15.343 8.485l4.43.425c1.541.148 2.014 1.653.824 2.643l-3.468 2.882 1.287 4.695c.423 1.542-.889 2.475-2.202 1.547L12 17.701l-4.214 2.976c-1.308.925-2.625-.005-2.202-1.547l1.287-4.695-3.468-2.882c-1.195-.994-.724-2.495.824-2.643l4.429-.425 1.95-4.499c.612-1.408 2.177-1.408 2.787 0l1.95 4.499z' id='a'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd' %3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cuse fill='%23be71f5' xlink:href='%23a'/%3E%3C/g%3E%3C/svg%3E");
     } EOT;
 }
 
@@ -1119,7 +1143,7 @@
     }
     
     .wall_module .copy_quote {
-        border-left: 1px solid #5c5c5c;
+        border-left: 1px solid #4c4c4c;
     }
     
     .like_cont {
@@ -1139,7 +1163,7 @@
     }
     
     .like_button_count, .like_button_label {
-        color: #999;
+        color: #aaa;
     }
     
     .like_btn.comment .like_button_icon {
@@ -1487,7 +1511,7 @@
     }
     
     .chat_tab_wrap:hover {
-        background-color: #2c2c2c;
+        background-color: #252525;
     }
     
     .chat_onl {
@@ -1503,7 +1527,7 @@
     }
     
     .top_nav_btn:hover {
-        background-color: #5c5c5c;
+        background-color: #2c2c2c;
     }
     
     .top_nav_btn#top_notify_btn:hover .top_nav_btn_icon {
@@ -1511,7 +1535,7 @@
     }
     
     .top_nav_btn.active {
-        background-color: #5c5c5c;
+        background-color: #2c2c2c;
     }
     
     .top_nav_btn#top_audio .top_nav_btn_icon {
@@ -1531,7 +1555,7 @@
     }
     
     .top_audio_play__button:hover, .top_audio_play__button:hover:before {
-        background-color: #3c3c3c;
+        background-color: #4c4c4c;
     }
     
     .top_audio_play__button:after {
@@ -1583,7 +1607,7 @@
     }
     
     .ads_ad_box.redesign .ads_ad_box_border {
-        border-color: #5c5c5c;
+        border-color: #2c2c2c;
     }
     
     .ads_ad_box.redesign .ads_ad_description {
@@ -2208,12 +2232,8 @@
         background: url(https://i.imgur.com/0QstEVi.png) no-repeat 0 3px;
     }
     
-    .feed_notifications .page_verified, .post_author .page_verified, .reply_author .page_verified, .top_notify_cont .page_verified, .top_tt_important .page_verified, .ts_cont_wrap .page_verified {
-        background: url(https://svgshare.com/i/9yE.svg) no-repeat 0;
-    }
-    
     .like_wrap.lite .like_btn.like .like_button_icon {
-        background-image: url(https://svgshare.com/i/9w_.svg);
+        background-image: url("data:image/svg+xml,%3Csvg height='9' viewBox='0 0 11 9' width='11' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.9 0C9.612 0 11 1.36 11 3.039c0 1.688-.69 2.534-3.597 4.75L6.063 8.81a.931.931 0 0 1-1.126 0l-1.34-1.022C.69 5.573 0 4.727 0 3.039 0 1.36 1.388 0 3.1 0c.904 0 2.4.9 2.4 2.25C5.5.9 6.996 0 7.9 0z' fill='%23aaa'/%3E%3C/svg%3E");
     }
     
     .emoji_tt_wrap {
@@ -2272,7 +2292,7 @@
     }
     
     .feedback_row_clickable:not(.feedback_row_touched):hover {
-        background-color: #2c2c2c;
+        background-color: #252525;
         border-bottom: 1px solid #2c2c2c;
     }
     
@@ -2302,7 +2322,7 @@
     }
     
     .top_notify_show_all {
-        background-color: #2c2c2c;
+        background-color: #1c1c1c;
         border-top: 1px solid #2c2c2c;
     }
     
@@ -3061,7 +3081,7 @@
     }
     
     .top_audio_player:hover {
-        background-color: #3c3c3c;
+        background-color: #2c2c2c;
     }
     
     .top_audio_player .top_audio_player_title {
@@ -3155,8 +3175,8 @@
     }
     
     .audio_layer_container .audio_page__footer {
-        color: #999;
-        border-top: 1px solid #5c5c5c;
+        color: #aaa;
+        border-top: 1px solid #2c2c2c;
     }
     
     .im-mess .im-mess--post {
@@ -3490,7 +3510,7 @@
     }
     
     .right_list_field {
-        color: #999;
+        color: #aaa;
     }
     
     .groups_actions_menu .groups_actions_icons {
@@ -4029,7 +4049,7 @@
     }
     
     .top_notify_show_all:hover {
-        background-color: #3c3c3c;
+        background-color: #2c2c2c;
     }
     
     .feedback_header b {
@@ -6309,22 +6329,22 @@
     }
     
     .fc_msgs_out .fc_msgs {
+        background-color: #252525;
+        border-color: #252525;
+    }
+    
+    .fc_msgs {
         background-color: #2c2c2c;
         border-color: #2c2c2c;
     }
     
-    .fc_msgs {
-        background-color: #4c4c4c;
-        border-color: #3c3c3c;
-    }
-    
     .fc_msgs_unread {
-        background-color: #3c3c3c;
+        background-color: #2c2c2c;
     }
     
     div.fc_tab_txt {
         background: #1c1c1c;
-        border-top-color: #1c1c1c;
+        border-top-color: #2c2c2c;
     }
     
     .fc_tab_attach .media_selector .ms_item_more {
@@ -7706,6 +7726,74 @@
     
     .audio_pl_snippet2.audio_pl_snippet_embed {
         border: 1px solid #2c2c2c;
+    }
+    
+    .deep_active .replies .replies_wrap_deep .reply_media_preview, .deep_active.wall_module .replies .replies_wrap_deep .reply_media_preview, .deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep .reply_media_preview, .deep_active .wl_replies_block_wrap .replies_wrap_deep .reply_media_preview {
+        border-bottom-color: transparent;
+    }
+    
+    .group_info_rows_redesign .group_info_row.date:before {
+        background: url("data:image/svg+xml,%3Csvg height='20' viewBox='0 0 20 20' width='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='nonzero' transform=''%3E%3Cpath d='m0 0h20v20h-20z' opacity='.527121'/%3E%3Cpath d='m13.1 4.9h-6.2v.2c0 .49705627-.40294373.9-.9.9s-.9-.40294373-.9-.9v-.18975629c-.33289311.01863982-.49132367.06437271-.65240673.15052087-.1690843.09042728-.29640141.21774439-.38682869.38682869-.11883131.22219523-.16076458.43934354-.16076458 1.11629193v.5361148h12.2v-.5361148c0-.67694839-.0419333-.8940967-.1607646-1.11629193-.0904273-.1690843-.2177444-.29640141-.3868287-.38682869-.161083-.08614816-.3195136-.13188105-.6524067-.15052087v.18975629c0 .49705627-.4029437.9-.9.9s-.9-.40294373-.9-.9zm0-1.8v-.2c0-.49705627.4029437-.9.9-.9s.9.40294373.9.9v.20950292c.66165.03019735 1.0744423.13572009 1.5012847.36399791.4827675.25818691.8670276.64244694 1.1252145 1.12521449.2773573.51861311.3735008 1.01648502.3735008 1.96516988v6.8722296c0 .9486849-.0961435 1.4465568-.3735008 1.9651699-.2581869.4827675-.642447.8670276-1.1252145 1.1252145-.5186131.2773573-1.016485.3735008-1.9651699.3735008h-8.8722296c-.94868486 0-1.44655677-.0961435-1.96516988-.3735008-.48276755-.2581869-.86702758-.642447-1.12521449-1.1252145-.27735733-.5186131-.37350083-1.016485-.37350083-1.9651699v-6.8722296c0-.94868486.0961435-1.44655677.37350083-1.96516988.25818691-.48276755.64244694-.86702758 1.12521449-1.12521449.42684241-.22827782.83963464-.33380056 1.50128468-.36399791v-.20950292c0-.49705627.40294373-.9.9-.9s.9.40294373.9.9v.2zm3 5.8h-12.2v4.5361148c0 .6769484.04193327.8940967.16076458 1.1162919.09042728.1690843.21774439.2964014.38682869.3868287.22219523.1188313.43934354.1607646 1.11629193.1607646h8.8722296c.6769484 0 .8940967-.0419333 1.1162919-.1607646.1690843-.0904273.2964014-.2177444.3868287-.3868287.1188313-.2221952.1607646-.4393435.1607646-1.1162919z' fill='%23ddd'/%3E%3C/g%3E%3C/svg%3E") no-repeat 50%;
+    }
+    
+    .search_item_img {
+        background-color: #1c1c1c;
+    }
+    
+    .chat_tab_imgcont.online.mobile:after {
+        background-color: #121212;
+    }
+    
+    .chat_tab_wrap:hover .chat_tab_imgcont.online.mobile:after {
+        background-color: #121212;
+    }
+    
+    .scrollbar_inner {
+        background: #5c5c5c;
+    }
+    
+    .scrollbar_hovered, .scrollbar_inner:hover {
+        background: #7c7c7c;
+    }
+    
+    .fc_tab_pointer.fc_tab_pointer_peer:after {
+        border-left-color: #2c2c2c;
+    }
+    
+    div.fc_editable~.placeholder .ph_content {
+        color: #aaa;
+    }
+    
+    .podcast_snippet__content {
+        background-color: #252525;
+    }
+    
+    .podcast_snippet__info, .podcast_snippet__name {
+        color: #aaa;
+    }
+    
+    .podcast_snippet__time {
+        color: #aaa;
+    }
+    
+    .audio_page_player2.audio_player_podcast .audio_player_podcast_title {
+        color: #fff;
+    }
+    
+    .audio_w_covers .audio_podcast .audio_row__title_inner {
+        color: #fff;
+    }
+    
+    .audio_w_covers .audio_row .audio_row__performers {
+        color: #aaa;
+    }
+    
+    .audio_page_player2 .audio_page_player_play_rate {
+        color: #aaa;
+    }
+    
+    .audio_page_player2 .audio_page_player_fave .btn_icon {
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cpath d='M12.464 5.013a.5.5 0 0 0-.925 0L9.573 9.796l-4.501.443a.5.5 0 0 0-.276.878l3.56 3.037-1.218 4.516a.5.5 0 0 0 .766.543l4.098-2.811 4.183 2.812a.5.5 0 0 0 .76-.553l-1.298-4.507 3.56-3.037a.5.5 0 0 0-.275-.878l-4.502-.443-1.966-4.783zm3.15 3.19l3.485.344a2.2 2.2 0 0 1 1.212 3.863l-2.727 2.327.994 3.454a2.2 2.2 0 0 1-3.341 2.434l-3.226-2.168-3.145 2.158a2.2 2.2 0 0 1-3.369-2.388l.938-3.477-2.742-2.34a2.2 2.2 0 0 1 1.212-3.863l3.484-.343 1.578-3.838a2.2 2.2 0 0 1 4.07 0l1.577 3.838z' fill='%23aaa' fill-rule='nonzero'/%3E%3C/g%3E%3C/svg%3E");
     }
     
     /* Other */
