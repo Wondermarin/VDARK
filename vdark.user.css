@@ -5,8 +5,8 @@
 @homepageURL  https://vdark.wondermarin.com
 @updateURL    https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0
 @supportURL   https://vdark.wondermarin.com/docs
-@version      2.2.2
-@author       <Wondermarin> (https://wondermarin.com)
+@version      2.2.3
+@author       Wondermarin (https://wondermarin.com)
 @license      CC-BY-NC-4.0
 @preprocessor stylus
 
@@ -500,6 +500,65 @@
         .current_audio_icon {
             background: url(https://vdark.wondermarin.com/inc_theme/lc/1/audio_icons.png) no-repeat scroll -66px -49px;
         }
+        
+        .PushNotifierPopup__button.PushNotifierPopup__button_type--latter {
+            color: #72aef6;
+            background-color: transparent !important;
+        }
+        
+        .page_media_place > .clear_fix > a {
+            color: #72aef6;
+        }
+        
+        .audio_pl_attach_preview .audio_pl_attach_preview__play {
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%2372aef6'/%3E%3Cpath fill='%23121212' d='M9.846 16.86c-.467.303-.846.097-.846-.45V7.588c0-.551.38-.752.846-.45l6.91 4.48c.324.21.327.549 0 .761l-6.91 4.48z'/%3E%3C/g%3E%3C/svg%3E") no-repeat 50%;
+        }
+        
+        .audio_pl_attach_preview.audio_pl__playing .audio_pl_attach_preview__play {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%2372aef6'/%3E%3Cpath fill='%23121212' d='M8 7.596c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596H8.607A.602.602 0 0 1 8 16.404V7.596zm5 0c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596h-1.786a.602.602 0 0 1-.607-.596V7.596z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .audio_pl_attach_preview__info_line > a {
+            color: #72aef6;
+        }
+        
+        .settings_bl_action > a {
+            color: #72aef6;
+        }
+        
+        .post_share > span {
+            color: #72aef6;
+        }
+        
+        .wall_module .post_share_icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' style='fill:%2372aef6;'%3E%3Cpath d='M0 5.5L0 6.5C0 8 1.6 9 3 9L8 9C8.4 9 9.1 9.2 10.7 10.3 11.7 11.1 12.9 12 12.9 12L14 12 14 6 14 6 14 6 14 0 12.9 0C12.9 0 11.7 0.9 10.7 1.7 9.1 2.8 8.4 3 8 3L3 3C1.6 3 0 4 0 5.5ZM7.5 12L6.4 9 4 9 5.3 14C7.3 14 7.5 13.3 7.5 12Z'/%3E%3C/svg%3E");
+            opacity: 1;
+        }
+        
+        .podcast_snippet__fave.activated {
+            background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Efav_fill_24%3C/title%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cpath d='M15.271 8.51l4.906.701a1 1 0 0 1 .554 1.71l-3.733 3.607.942 4.668a1.484 1.484 0 0 1-1.155 1.75 1.47 1.47 0 0 1-1.184-.273l-3.6-2.747-3.602 2.747a1.47 1.47 0 0 1-2.063-.28 1.49 1.49 0 0 1-.275-1.197l.942-4.668-3.734-3.608a1 1 0 0 1 .554-1.709l4.905-.7 1.911-4.577a1.473 1.473 0 0 1 2.722 0l1.91 4.576z' fill='%2372aef6' fill-rule='nonzero'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        #payments_money_transfer_qr > svg > defs > rect {
+            fill: #72aef6 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > path {
+            fill: #72aef6 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > g {
+            fill: #72aef6 !important;
+        }
+        
+        .photos_album_reverse_btn .photos_album_reverse_icon {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/1/reverse_order.png);
+        }
+        
+        .page_media_place_label_inline:before {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/1/attach_icons.png) no-repeat 0 0;
+            background-position: 0 -10px;
+        }
     } else if linkColors == red {
         .audio_row .audio_row__performers a {
             color: #f67288;
@@ -983,6 +1042,65 @@
         
         .current_audio_icon {
             background: url(https://vdark.wondermarin.com/inc_theme/lc/2/audio_icons.png) no-repeat scroll -66px -49px;
+        }
+        
+        .PushNotifierPopup__button.PushNotifierPopup__button_type--latter {
+            color: #f67288;
+            background-color: transparent !important;
+        }
+        
+        .page_media_place > .clear_fix > a {
+            color: #f67288;
+        }
+        
+        .audio_pl_attach_preview .audio_pl_attach_preview__play {
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23f67288'/%3E%3Cpath fill='%23121212' d='M9.846 16.86c-.467.303-.846.097-.846-.45V7.588c0-.551.38-.752.846-.45l6.91 4.48c.324.21.327.549 0 .761l-6.91 4.48z'/%3E%3C/g%3E%3C/svg%3E") no-repeat 50%;
+        }
+        
+        .audio_pl_attach_preview.audio_pl__playing .audio_pl_attach_preview__play {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23f67288'/%3E%3Cpath fill='%23121212' d='M8 7.596c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596H8.607A.602.602 0 0 1 8 16.404V7.596zm5 0c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596h-1.786a.602.602 0 0 1-.607-.596V7.596z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .audio_pl_attach_preview__info_line > a {
+            color: #f67288;
+        }
+        
+        .settings_bl_action > a {
+            color: #f67288;
+        }
+        
+        .post_share > span {
+            color: #f67288;
+        }
+        
+        .wall_module .post_share_icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' style='fill:%23f67288;'%3E%3Cpath d='M0 5.5L0 6.5C0 8 1.6 9 3 9L8 9C8.4 9 9.1 9.2 10.7 10.3 11.7 11.1 12.9 12 12.9 12L14 12 14 6 14 6 14 6 14 0 12.9 0C12.9 0 11.7 0.9 10.7 1.7 9.1 2.8 8.4 3 8 3L3 3C1.6 3 0 4 0 5.5ZM7.5 12L6.4 9 4 9 5.3 14C7.3 14 7.5 13.3 7.5 12Z'/%3E%3C/svg%3E");
+            opacity: 1;
+        }
+        
+        .podcast_snippet__fave.activated {
+            background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Efav_fill_24%3C/title%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cpath d='M15.271 8.51l4.906.701a1 1 0 0 1 .554 1.71l-3.733 3.607.942 4.668a1.484 1.484 0 0 1-1.155 1.75 1.47 1.47 0 0 1-1.184-.273l-3.6-2.747-3.602 2.747a1.47 1.47 0 0 1-2.063-.28 1.49 1.49 0 0 1-.275-1.197l.942-4.668-3.734-3.608a1 1 0 0 1 .554-1.709l4.905-.7 1.911-4.577a1.473 1.473 0 0 1 2.722 0l1.91 4.576z' fill='%23f67288' fill-rule='nonzero'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        #payments_money_transfer_qr > svg > defs > rect {
+            fill: #f67288 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > path {
+            fill: #f67288 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > g {
+            fill: #f67288 !important;
+        }
+        
+        .photos_album_reverse_btn .photos_album_reverse_icon {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/2/reverse_order.png);
+        }
+        
+        .page_media_place_label_inline:before {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/2/attach_icons.png) no-repeat 0 0;
+            background-position: 0 -10px;
         }
     } else if linkColors == orange {
         .audio_row .audio_row__performers a {
@@ -1468,6 +1586,65 @@
         .current_audio_icon {
             background: url(https://vdark.wondermarin.com/inc_theme/lc/3/audio_icons.png) no-repeat scroll -66px -49px;
         }
+        
+        .PushNotifierPopup__button.PushNotifierPopup__button_type--latter {
+            color: #f59971;
+            background-color: transparent !important;
+        }
+        
+        .page_media_place > .clear_fix > a {
+            color: #f59971;
+        }
+        
+        .audio_pl_attach_preview .audio_pl_attach_preview__play {
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23f59971'/%3E%3Cpath fill='%23121212' d='M9.846 16.86c-.467.303-.846.097-.846-.45V7.588c0-.551.38-.752.846-.45l6.91 4.48c.324.21.327.549 0 .761l-6.91 4.48z'/%3E%3C/g%3E%3C/svg%3E") no-repeat 50%;
+        }
+        
+        .audio_pl_attach_preview.audio_pl__playing .audio_pl_attach_preview__play {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23f59971'/%3E%3Cpath fill='%23121212' d='M8 7.596c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596H8.607A.602.602 0 0 1 8 16.404V7.596zm5 0c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596h-1.786a.602.602 0 0 1-.607-.596V7.596z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .audio_pl_attach_preview__info_line > a {
+            color: #f59971;
+        }
+        
+        .settings_bl_action > a {
+            color: #f59971;
+        }
+        
+        .post_share > span {
+            color: #f59971;
+        }
+        
+        .wall_module .post_share_icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' style='fill:%23f59971;'%3E%3Cpath d='M0 5.5L0 6.5C0 8 1.6 9 3 9L8 9C8.4 9 9.1 9.2 10.7 10.3 11.7 11.1 12.9 12 12.9 12L14 12 14 6 14 6 14 6 14 0 12.9 0C12.9 0 11.7 0.9 10.7 1.7 9.1 2.8 8.4 3 8 3L3 3C1.6 3 0 4 0 5.5ZM7.5 12L6.4 9 4 9 5.3 14C7.3 14 7.5 13.3 7.5 12Z'/%3E%3C/svg%3E");
+            opacity: 1;
+        }
+        
+        .podcast_snippet__fave.activated {
+            background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Efav_fill_24%3C/title%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cpath d='M15.271 8.51l4.906.701a1 1 0 0 1 .554 1.71l-3.733 3.607.942 4.668a1.484 1.484 0 0 1-1.155 1.75 1.47 1.47 0 0 1-1.184-.273l-3.6-2.747-3.602 2.747a1.47 1.47 0 0 1-2.063-.28 1.49 1.49 0 0 1-.275-1.197l.942-4.668-3.734-3.608a1 1 0 0 1 .554-1.709l4.905-.7 1.911-4.577a1.473 1.473 0 0 1 2.722 0l1.91 4.576z' fill='%23f59971' fill-rule='nonzero'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        #payments_money_transfer_qr > svg > defs > rect {
+            fill: #f59971 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > path {
+            fill: #f59971 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > g {
+            fill: #f59971 !important;
+        }
+        
+        .photos_album_reverse_btn .photos_album_reverse_icon {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/3/reverse_order.png);
+        }
+        
+        .page_media_place_label_inline:before {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/3/attach_icons.png) no-repeat 0 0;
+            background-position: 0 -10px;
+        }
     } else if linkColors == purple {
         .audio_row .audio_row__performers a {
             color: #be71f5;
@@ -1951,6 +2128,65 @@
         
         .current_audio_icon {
             background: url(https://vdark.wondermarin.com/inc_theme/lc/4/audio_icons.png) no-repeat scroll -66px -49px;
+        }
+        
+        .PushNotifierPopup__button.PushNotifierPopup__button_type--latter {
+            color: #be71f5;
+            background-color: transparent !important;
+        }
+        
+        .page_media_place > .clear_fix > a {
+            color: #be71f5;
+        }
+        
+        .audio_pl_attach_preview .audio_pl_attach_preview__play {
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23be71f5'/%3E%3Cpath fill='%23121212' d='M9.846 16.86c-.467.303-.846.097-.846-.45V7.588c0-.551.38-.752.846-.45l6.91 4.48c.324.21.327.549 0 .761l-6.91 4.48z'/%3E%3C/g%3E%3C/svg%3E") no-repeat 50%;
+        }
+        
+        .audio_pl_attach_preview.audio_pl__playing .audio_pl_attach_preview__play {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23be71f5'/%3E%3Cpath fill='%23121212' d='M8 7.596c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596H8.607A.602.602 0 0 1 8 16.404V7.596zm5 0c0-.33.277-.596.607-.596h1.786c.335 0 .607.267.607.596v8.808a.605.605 0 0 1-.607.596h-1.786a.602.602 0 0 1-.607-.596V7.596z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .audio_pl_attach_preview__info_line > a {
+            color: #be71f5;
+        }
+        
+        .settings_bl_action > a {
+            color: #be71f5;
+        }
+        
+        .post_share > span {
+            color: #be71f5;
+        }
+        
+        .wall_module .post_share_icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' style='fill:%23be71f5;'%3E%3Cpath d='M0 5.5L0 6.5C0 8 1.6 9 3 9L8 9C8.4 9 9.1 9.2 10.7 10.3 11.7 11.1 12.9 12 12.9 12L14 12 14 6 14 6 14 6 14 0 12.9 0C12.9 0 11.7 0.9 10.7 1.7 9.1 2.8 8.4 3 8 3L3 3C1.6 3 0 4 0 5.5ZM7.5 12L6.4 9 4 9 5.3 14C7.3 14 7.5 13.3 7.5 12Z'/%3E%3C/svg%3E");
+            opacity: 1;
+        }
+        
+        .podcast_snippet__fave.activated {
+            background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Efav_fill_24%3C/title%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h24v24H0z'/%3E%3Cpath d='M15.271 8.51l4.906.701a1 1 0 0 1 .554 1.71l-3.733 3.607.942 4.668a1.484 1.484 0 0 1-1.155 1.75 1.47 1.47 0 0 1-1.184-.273l-3.6-2.747-3.602 2.747a1.47 1.47 0 0 1-2.063-.28 1.49 1.49 0 0 1-.275-1.197l.942-4.668-3.734-3.608a1 1 0 0 1 .554-1.709l4.905-.7 1.911-4.577a1.473 1.473 0 0 1 2.722 0l1.91 4.576z' fill='%23be71f5' fill-rule='nonzero'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        #payments_money_transfer_qr > svg > defs > rect {
+            fill: #be71f5 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > path {
+            fill: #be71f5 !important;
+        }
+        
+        #payments_money_transfer_qr > svg > defs > g {
+            fill: #be71f5 !important;
+        }
+        
+        .photos_album_reverse_btn .photos_album_reverse_icon {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/4/reverse_order.png);
+        }
+        
+        .page_media_place_label_inline:before {
+            background: url(https://vdark.wondermarin.com/inc_theme/lc/4/attach_icons.png) no-repeat 0 0;
+            background-position: 0 -10px;
         }
     }
     
@@ -2849,9 +3085,9 @@
         background: #202020;
     }
     
-    .media_preview_has_medias {
+    /* .media_preview_has_medias {
         border-bottom: 1px solid #2c2c2c;
-    }
+    } */
     
     .video_choose_upload_area {
         background: #181818;
@@ -3450,8 +3686,8 @@
     }
     
     .box_title_wrap.box_grey {
-        background-color: #2c2c2c;
-        border-bottom: 1px solid #2c2c2c;
+        background-color: #181818;
+        border-bottom-color: #252525;
         color: #ddd;
     }
     
@@ -3762,7 +3998,7 @@
     }
     
     .im-chat-input .im-chat-input--txt-wrap {
-        border: solid 1px #5c5c5c;
+        border-color: #2c2c2c;
         background: transparent;
     }
     
@@ -4750,17 +4986,17 @@
     }
     
     .sticker_hints_tt {
-        background-color: #3c3c3c;
-        border: 1px solid transparent;
+        background-color: #1c1c1c;
+        border-color: #2c2c2c;
     }
     
     .sticker_hints_arrow {
-        background: #4c4c4c url(https://i.imgur.com/Yl9XSDx.png) no-repeat 50% 50%;
+        background: #1c1c1c url(https://i.imgur.com/Yl9XSDx.png) no-repeat 50% 50%;
         border-left: 1px solid transparent;
     }
     
     .sticker_hints_arrow:hover {
-        background-color: #5c5c5c;
+        background-color: #252525;
     }
     
     .emoji_sticker_item.over, .emoji_sticker_item:hover {
@@ -6988,7 +7224,7 @@
     
     .wk_extpage_footer_wrap {
         background: #1c1c1c;
-        border-top-color: #5c5c5c;
+        border-top-color: #2c2c2c;
     }
     
     .wk_table {
@@ -7006,7 +7242,7 @@
     }
     
     .wk_extpage_footer_wrap {
-        color: #999;
+        color: #aaa;
     }
     
     .wall_module .reply.reply_deleted .reply_text {
@@ -7594,15 +7830,15 @@
     }
     
     .wk_wall_archive__tabs {
-        background: #2c2c2c;
-    }
-    
-    .wk_wall_archive:not(.wk_wall_archive--empty) {
         background: #1c1c1c;
     }
     
+    .wk_wall_archive:not(.wk_wall_archive--empty) {
+        background: #181818;
+    }
+    
     .wk_wall_archive__tabs .ui_tabs {
-        border-bottom-color: #1c1c1c;
+        border-bottom-color: #252525;
     }
     
     .wk_wall_archive__posts_month_name {
@@ -8419,7 +8655,7 @@
     }
     
     .poster-uploader__drop-box:hover {
-        background-color: #2c2c2c;
+        background-color: #252525;
     }
     
     .poster-color-ctrl__label {
@@ -9217,16 +9453,66 @@
         color: #aaa;
     }
     
-    #payments_money_transfer_qr > svg > defs > rect {
-        fill: #fff !important;
+    .app_widget_text_content {
+        color: #fff;
     }
     
-    #payments_money_transfer_qr > svg > defs > path {
-        fill: #fff !important;
+    .app_widget_text_descr {
+        color: #aaa;
     }
     
-    #payments_money_transfer_qr > svg > defs > g {
-        fill: #fff !important;
+    .wall_module .post_like:hover .post_like_icon, .wall_module .post_reply:hover .post_reply_icon, .wall_module .post_share:hover .post_share_icon {
+        opacity: 1;
+    }
+    
+    #apps_layer .apps_footer_left_inner .post_share:hover {
+        background-color: #252525;
+    }
+    
+    #apps_layer .apps_footer_left_inner .app_actions_menu_wrap {
+        color: #ddd;
+    }
+    
+    .wk_wall_archive__month_menu {
+        color: #ddd;
+    }
+    
+    .bp_post.bp_selected {
+        background-color: #252525;
+    }
+    
+    .wk_header {
+        color: #fff;
+    }
+    
+    .settings_blb_row {
+        background-color: #1c1c1c;
+        border-bottom-color: #2c2c2c;
+    }
+    
+    a.settings_blb_title {
+        color: #fff;
+    }
+    
+    .settings_blb_position {
+        color: #aaa;
+    }
+    
+    .audio_pl_attach_preview {
+        background-color: #1c1c1c;
+        border-color: #2c2c2c
+    }
+    
+    .audio_pl_attach_preview .audio_pl_attach_preview__title {
+        color: #fff;
+    }
+    
+    .places_summary {
+        color: #fff;
+    }
+
+    .PushNotifierPopup__title {
+        color: #fff
     }
     
     /* Other */
