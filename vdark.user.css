@@ -5,7 +5,7 @@
 @homepageURL  https://vdark.wondermarin.com
 @updateURL    https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0
 @supportURL   https://vdark.wondermarin.com/docs
-@version      2.2.6
+@version      2.2.7
 @author       Wondermarin (https://wondermarin.com)
 @license      CC-BY-NC-4.0
 @preprocessor stylus
@@ -4524,7 +4524,7 @@
     }
     
     .feedback_row_clickable:not(.feedback_row_touched):hover {
-        background-color: #252525;
+        background-color: #202020;
         border-bottom: 1px solid #2c2c2c;
     }
     
@@ -4537,7 +4537,7 @@
     }
     
     .top_notify_cont .feedback_header {
-        color: #aaa;
+        color: #ddd;
     }
     
     .feedback_header .author, .feedback_header .group_link, .feedback_header .mem_link {
@@ -4550,7 +4550,7 @@
     }
     
     .top_notify_cont .feedback_row:not(.dld).hover, .top_notify_cont .feedback_row:not(.dld):hover {
-        background-color: #252525;
+        background-color: #202020;
     }
     
     .top_notify_show_all {
@@ -6150,7 +6150,7 @@
     }
     
     .feedback_row_wrap.unread:not(.feedback_row_touched) {
-        background-color: #2c2c2c;
+        background-color: #252525;
     }
     
     .top_notify_cont .top_notify_header {
@@ -6162,7 +6162,7 @@
     }
     
     .feedback_date {
-        color: #999;
+        color: #aaa;
     }
     
     .top_notify_cont .feedback_row_menu .ui_actions_menu:before, .ui_actions_menu_dummy_wrap.feedback_row_menu .ui_actions_menu:before {
@@ -10533,6 +10533,31 @@
     
     .wall_module:not(.search_results) .post--with-likes:not(.post_copy):not(.post_btl):not(.post_wf):not(.post_fr_likes) .wall_text .media_link:last-child {
         background: transparent;
+    }
+
+    .settings_bl_label {
+        color: #aaa;
+    }
+    
+    .im-page .im-page--error {
+        background: #252525;
+        border-color: #252525;
+    }
+
+    .feed_asc_x_button {
+        background: url(https://vdark.wondermarin.com/inc_theme/cross_popup.png) no-repeat 0 0;
+    }
+    
+    .center .feed_asc_text {
+        color: #aaa;
+    }
+    
+    .pedit_twitter_msg {
+        color: #aaa;
+    }
+    
+    .feed_asc_user_field {
+        color: #aaa;
     }
     
     /* Blog */
