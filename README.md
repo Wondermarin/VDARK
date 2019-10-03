@@ -2,12 +2,12 @@
 Perhaps the best dark theme for VK
 
 ## Preview
-`Version 2.2 (Settings: Default)`
+`Version 2.3 (Settings: Default)`
 
-![Страница](https://vdark.wondermarin.com/preview/1.png "Страница")
-![Видео](https://vdark.wondermarin.com/preview/2.png "Видео")
-![Музыка](https://vdark.wondermarin.com/preview/3.png "Музыка")
-![Сообщества](https://vdark.wondermarin.com/preview/4.png "Сообщества")
+![Страница](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/1.png "Страница")
+![Видео](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/2.png "Видео")
+![Музыка](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/3.png "Музыка")
+![Сообщества](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/4.png "Сообщества")
 
 ## Quick Installation
 
@@ -19,7 +19,7 @@ Perhaps the best dark theme for VK
 Stylish:
 
 1. Install [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe).
-2. Install the theme on [userstyles](https://userstyles.org/styles/167283/vdark-2-1-2).
+2. Install the theme on [userstyles](https://userstyles.org/styles/167283).
 
 ## License
 
