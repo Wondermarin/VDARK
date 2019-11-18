@@ -5833,6 +5833,10 @@
         color: #aaa;
     }
     
+    .audio_pl_snippet2 .audio_pl_snippet__info_author .group_link {
+        color: #aaa;
+    }
+    
     .audio_pl_snippet2 .audio_pl_snippet__info_author, .audio_pl_snippet2 .audio_pl_snippet__info_line, .audio_pl_snippet2 .audio_pl_snippet__info_line_small {
         color: #999;
     }
