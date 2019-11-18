@@ -610,6 +610,7 @@
         
         .nim-dialog.nim-dialog_muted .nim-dialog--mute, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected.nim-dialog_muted .nim-dialog--mute {
             background: url(https://i.imgur.com/AQbeW4k.png) no-repeat 0 0;
+            opacity: 0.5;
         }
         
         .landing_safety .landing_transparencySection__next {
