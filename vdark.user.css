@@ -11685,6 +11685,14 @@
         color: #fff!important;
     }
     
+    .wddi_thumb.online.mobile:after {
+        background-color: #121212;
+    }
+    
+    .wddi_over .wddi_thumb.online.mobile:after {
+        background-color: #121212;
+    }
+    
     /* Blog */
     
     .blog_entry_title {
