@@ -11681,6 +11681,10 @@
         background-color: #121212!important;
     }
     
+    .im-chat-input .im-chat-input--text * {
+        color: #fff!important;
+    }
+    
     /* Blog */
     
     .blog_entry_title {
