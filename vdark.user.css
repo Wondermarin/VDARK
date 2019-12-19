@@ -11707,6 +11707,14 @@
         background-color: #72aef6;
     }
     
+    #pv_tags {
+        color: #aaa;
+    }
+    
+    #pv_tags span a {
+        color: #72aef6;
+    }
+    
     /* Blog */
     
     .blog_entry_title {
