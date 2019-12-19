@@ -11715,6 +11715,26 @@
         color: #72aef6;
     }
     
+    .app_widget_donation_text {
+        color: #fff;
+    }
+    
+    .app_widget_donation_data {
+        color: #ddd;
+    }
+    
+    .app_widget_donation_desc {
+        color: #999;
+    }
+    
+    .app_widget_donation_bar {
+        background: #252525;
+    }
+    
+    .app_widget_donation_bar div {
+        background: #72aef6;
+    }
+    
     /* Blog */
     
     .blog_entry_title {
