@@ -11907,6 +11907,14 @@
         color: #aaa;
     }
     
+    .pv_place_label {
+        background-image: url('https://i.imgur.com/Pl7saIN.png');
+    }
+    
+    .pv_place_a {
+        color: #72aef6;
+    }
+    
     /* Blog */
     
     .blog_entry_title {
