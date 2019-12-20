@@ -11805,6 +11805,10 @@
         border-top-color: #2c2c2c;
     }
     
+    .sticker_img, .svg_sticker_animation, .emoji_sticker_image {
+        filter: drop-shadow(0 -1px 0 #fff) drop-shadow(1px -1px 0 #fff) drop-shadow(1px 0 0 #fff) drop-shadow(1px 1px 0 #fff) drop-shadow(0 1px 0 #fff) drop-shadow(-1px 1px 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(-1px -1px 0 #fff);
+    }
+    
     /* Blog */
     
     .blog_entry_title {
