@@ -1081,6 +1081,14 @@
         .DrawPanel__slider .slider_amount, .DrawPanel__slider .slider_handler {
             background-color: #72aef6 !important;
         }
+        
+        .post_suggest .post_suggest__action_text {
+            color: #72aef6;
+        }
+        
+        .ui_gallery_wall_cards .wall_card_text_special {
+            color: #72aef6;
+        }
     } else if linkColors == red {
         .audio_row .audio_row__performers a {
             color: #f67288;
@@ -2060,11 +2068,11 @@
         }
         
         .index_new_user_row .index_user_ph {
-            background: #121212 url('https://i.imgur.com/3MutdYa.png') no-repeat 50% 50%;
+            background: #121212 url('https://i.imgur.com/o7movgW.png') no-repeat 50% 50%;
         }
         
         .pv_place_label {
-            background-image: url('https://i.imgur.com/Pl7saIN.png');
+            background-image: url('https://i.imgur.com/PiCKkz3.png');
         }
         
         .pv_place_a {
@@ -2145,6 +2153,14 @@
         
         .DrawPanel__slider .slider_amount, .DrawPanel__slider .slider_handler {
             background-color: #f67288 !important;
+        }
+        
+        .post_suggest .post_suggest__action_text {
+            color: #f67288;
+        }
+        
+        .ui_gallery_wall_cards .wall_card_text_special {
+            color: #f67288;
         }
     } else if linkColors == purple {
         .audio_row .audio_row__performers a {
@@ -3125,11 +3141,11 @@
         }
         
         .index_new_user_row .index_user_ph {
-            background: #121212 url('https://i.imgur.com/3MutdYa.png') no-repeat 50% 50%;
+            background: #121212 url('https://i.imgur.com/7xtzoh6.png') no-repeat 50% 50%;
         }
         
         .pv_place_label {
-            background-image: url('https://i.imgur.com/Pl7saIN.png');
+            background-image: url('https://i.imgur.com/XrVChdy.png');
         }
         
         .pv_place_a {
@@ -3210,6 +3226,14 @@
         
         .DrawPanel__slider .slider_amount, .DrawPanel__slider .slider_handler {
             background-color: #be71f5 !important;
+        }
+        
+        .post_suggest .post_suggest__action_text {
+            color: #be71f5;
+        }
+        
+        .ui_gallery_wall_cards .wall_card_text_special {
+            color: #be71f5;
         }
     } else if linkColors == green {
         .audio_row .audio_row__performers a {
@@ -4190,11 +4214,11 @@
         }
         
         .index_new_user_row .index_user_ph {
-            background: #121212 url('https://i.imgur.com/3MutdYa.png') no-repeat 50% 50%;
+            background: #121212 url('https://i.imgur.com/lQ0D08L.png') no-repeat 50% 50%;
         }
         
         .pv_place_label {
-            background-image: url('https://i.imgur.com/Pl7saIN.png');
+            background-image: url('https://i.imgur.com/LU4vo0A.png');
         }
         
         .pv_place_a {
@@ -4275,6 +4299,14 @@
         
         .DrawPanel__slider .slider_amount, .DrawPanel__slider .slider_handler {
             background-color: #71f59d !important;
+        }
+        
+        .post_suggest .post_suggest__action_text {
+            color: #71f59d;
+        }
+        
+        .ui_gallery_wall_cards .wall_card_text_special {
+            color: #71f59d;
         }
     }
     
@@ -12184,6 +12216,24 @@
     
     .DrawPanel__sliderTitle {
         color: #aaa;
+    }
+
+    .PushNotifierPopup__text {
+        color: #aaa;
+    }
+    
+    .post_suggest {
+        border-top-color: #2c2c2c;
+    }
+    
+    .post_suggest:before {
+        border-color: transparent;
+        border-bottom-color: #2c2c2c;
+    }
+    
+    .post_suggest:after {
+        border-color: transparent;
+        border-bottom-color: #2c2c2c;
     }
     
     /* Blog */
