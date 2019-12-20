@@ -3958,7 +3958,7 @@
     }
     
     .login_mobile_info {
-        color: #808080;
+        color: #aaa;
     }
     
     .box_controls .flat_button.secondary, .flat_button.secondary.button_light {
@@ -4036,19 +4036,19 @@
     }
     
     .index_users_info {
-        color: #808080;
+        color: #aaa;
     }
     
     .index_user_name {
-        color: #ccc;
+        color: #fff;
     }
     
     .index_new_user_row .index_user_name {
-        color: #808080;
+        color: #72aef6;
     }
     
     .index_new_user_row .index_user_ph {
-        background: #121212 url(https://i.ibb.co/QHLZwBb/new-user.png) no-repeat 50% 50%;
+        background: #121212 url('https://i.imgur.com/3MutdYa.png') no-repeat 50% 50%;
     }
     
     img.login_compact_mobile_promo_picture {
@@ -11749,6 +11749,60 @@
     
     .verification_set_item .verification_set_item_title {
         color: #fff;
+    }
+    
+    .login_compact_mobile_promo:before {
+        content: '';
+        position: absolute;
+        width: 350px;
+        height: 200px;
+        right: 32px;
+        bottom: 0;
+        background-image: url('https://i.imgur.com/8JFZOq4.png');
+    }
+    
+    .login_compact_mobile_promo_text {
+        color: #aaa;
+    }
+    
+    .login_compact_mobile_promo_text a {
+        color: #72aef6;
+    }
+    
+    .index_user_row {
+        border-color: #2c2c2c;
+    }
+    
+    .login_mobile_header {
+        color: #fff;
+    }
+    
+    .LoginMobilePromoDevice--android .LoginMobilePromoDevice__button::before {
+        background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%2216%22%20height%3D%2216%22%20rx%3D%22.533%22%2F%3E%3Cpath%20fill%3D%22%2372aef6%22%20d%3D%22M6%2012v1.495c0%20.279.232.505.5.505.276%200%20.5-.214.5-.505V12h2v1.495c0%20.279.232.505.5.505.276%200%20.5-.214.5-.505V12h1a1%201%200%200%200%201-.99V6H4v5.01c0%20.546.444.99%201%20.99h1zM2.5%206c-.276%200-.5.215-.5.49v3.02a.5.5%200%200%200%20.5.49c.276%200%20.5-.215.5-.49V6.49A.5.5%200%200%200%202.5%206zm7.144-3.778C11.918%202.916%2012%205%2012%205H4s.082-2.084%202.356-2.778l-.32-.688a.375.375%200%200%201%20.679-.317l.393.842C7.38%202.02%207.678%202%208%202c.323%200%20.62.02.892.059l.393-.842a.375.375%200%200%201%20.68.317l-.321.688zM13.5%206a.5.5%200%200%201%20.5.49v3.02c0%20.275-.224.49-.5.49a.5.5%200%200%201-.5-.49V6.49c0-.275.224-.49.5-.49zm-7-2c.268%200%20.5-.224.5-.5%200-.268-.224-.5-.5-.5-.268%200-.5.224-.5.5%200%20.268.224.5.5.5zm3%200c.268%200%20.5-.224.5-.5%200-.268-.224-.5-.5-.5-.268%200-.5.224-.5.5%200%20.268.224.5.5.5z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+    }
+    
+    .LoginMobilePromoDevice--ios .LoginMobilePromoDevice__button::before {
+        background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%2216%22%20height%3D%2216%22%20rx%3D%22.533%22%2F%3E%3Cpath%20fill%3D%22%2372aef6%22%20d%3D%22M11.761%207.085c-.017-1.689%201.381-2.499%201.444-2.54-.786-1.145-2.01-1.302-2.446-1.32-1.04-.105-2.031.611-2.56.611-.527%200-1.343-.596-2.206-.58-1.135.017-2.182.658-2.766%201.671-1.18%202.04-.302%205.063.847%206.718.562.81%201.231%201.72%202.11%201.687.847-.033%201.168-.546%202.191-.546%201.024%200%201.312.546%202.208.53.911-.017%201.489-.826%202.046-1.638.645-.94.91-1.85.927-1.896-.02-.01-1.777-.68-1.795-2.697zm-1.684-4.956c.467-.564.782-1.348.696-2.129-.672.027-1.487.446-1.97%201.01-.432.5-.811%201.297-.71%202.063.751.058%201.517-.38%201.984-.944z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+    }
+    
+    .LoginMobilePromoDevice__button {
+        color: #72aef6!important;
+    }
+    
+    .login_all_products_button {
+        color: #72aef6;
+    }
+    
+    .login_all_products_button:after {
+        background: url("data:image/svg+xml;charset=UTF-8,%3csvg width='8' height='8' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3e%3ctitle%3earrow_right_reg%3c/title%3e%3cg fill='none' fill-rule='evenodd'%3e%3cpath d='M0 0H8V8H0z'/%3e%3cpath stroke='%2372aef6' stroke-width='1.3' opacity='1' stroke-linecap='round' stroke-linejoin='round' transform='matrix(0 1 1 0 .35 -.35)' d='M1.14996338 2.34997559L4.34997559 5.65002441 7.54998779 2.34997559'/%3e%3c/g%3e%3c/svg%3e") no-repeat 50% / contain;
+    }
+    
+    .join_text {
+        color: #aaa;
+    }
+    
+    .join_finish_page #footer_wrap {
+        border-top-color: #2c2c2c;
     }
     
     /* Blog */
