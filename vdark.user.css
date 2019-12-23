@@ -12417,4 +12417,131 @@
     #side_bar #l_ap.app_halloween_link .left_icon {
         background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20width%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m0%200h20v20h-20z%22%20fill-rule%3D%22nonzero%22%2F%3E%3Cpath%20d%3D%22m7%200c3.8659932%200%207%203.13400675%207%207v6.5771736c0%20.5522847-.4477153%201-1%201-.1154726%200-.2300728-.0199998-.3387195-.0591126l-.7179911-.2584768c-.5334679-.1920484-.7657453-.2384799-1.0208335-.2483748-.2550881-.009895-.494271.0306843-.7318216.1241593-.23755063.093475-.44151643.2139185-.8817912.57117l-.7506298.6090825c-.48338283.3922306-.76939019.5379055-1.08475667.6223241-.31536647.0844186-.63154679.0844186-.94691326%200-.31536648-.0844186-.60137384-.2300935-1.08475667-.6223241l-.7506298-.6090825c-.44027477-.3572515-.64424057-.477695-.8817912-.57117-.23755062-.093475-.47673347-.1340543-.73182162-.1241593-.25508815.0098949-.48736561.0563264-1.02083344.2483748l-.71799117.2584768c-.51963777.1870696-1.09253728-.0825302-1.27960688-.602168-.03911282-.1086467-.05911259-.2232468-.05911259-.3387194v-6.5771736c0-3.86599325%203.13400675-7%207-7zm0%209.40056228c-1.35%200-3-1.05-3%20.25%200%201.00000002%201.5%202.00000002%203%202.00000002s3-1%203-2.00000002c0-1.3-1.65-.25-3-.25zm1.76303021-4.28533494c-.28333876.77846685-.03972615%201.58180752.54412399%201.79431159s1.2868456-.24629941%201.5701844-1.02476627c.2833388-.77846685.0397262-1.58180752-.544124-1.79431159-.58385011-.21250407-1.28684562.24629941-1.57018439%201.02476627zm-3.53087601%200c-.28333877-.77846686-.98633427-1.23727034-1.57018441-1.02476627-.58385015.21250407-.82746275%201.01584474-.54412399%201.79431159.28333877.77846686.98633427%201.23727034%201.57018441%201.02476627.58385015-.21250407.82746275-1.01584474.54412399-1.79431159z%22%20fill%3D%22%23ddd%22%20transform%3D%22translate(3%202)%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat 6px 4px;
     }
+
+    /* просмотр истории */
+    .stories_feedback_view_name {
+        color: #ddd;
+    }
+
+    .stories_feedback_tt_arrow {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAABmJLR0QA/wD/AP+gvaeTAAAA6klEQVQoka2PMUrEQBSGv5dJKtm0gYRJs5ewWVCiWIiNeAAvso1n8BJbWS9oox5ArGy2GJPMFumiTRBmbAwscdmw4l9+738f74nWeu69v+EfIiJz1bbtYxzHK+ACUH90fQHXVVXdSk+yLCtE5A6Y7Cn7cM5dWmvvAYKe1nX9ICIF0Owha0Sk6GUAMmxorafe+yUwHZG9O+fOrLVvmzAYtsqyXCmlZsDLDtmrUupwKNsqBDDGrMMwPAaehjPv/XMQBEfGmPW23V8vbyZJkoMoihbA+Q9adl131TTN5669sUiapid5np+OHQDwDZk7TD5qnanGAAAAAElFTkSuQmCC") no-repeat 50% / contain;
+    }
+
+	.stories_feedback_title {
+		background: #181818;
+	}
+	
+	.stories_feedback_tt {
+		color: #fff;
+	}
+	
+	.stories_feedback_view:hover {
+		background: #2c2c2c;
+	}
+
+    /* сниппет альбома/трека */
+        .AudioPlaylistSnippet {
+        background: #1c1c1c;
+    }
+	
+	.AudioPlaylistSnippet h1.AudioPlaylistSnippet__title--main {
+		color: #fff;
+	}
+	
+	.AudioPlaylistSnippet__author a {
+		color: #ddd;
+	}
+
+    /* дропбокс при перетаскивании файла с проводника ОС */
+    .im-dropbox {
+        background: rgba(18, 18, 18, 0.9);
+        transition: 0.4s;
+    }
+
+    .docs_choose_dropbox_wrap,
+    .docs_choose_rows .docs_item:hover,
+    .dropbox_over .photos_choose_upload_area_drop,
+    .im-dropbox--rect.dropbox_over,
+    .post_upload_dropbox.dropbox_over .post_upload_dropbox_inner {
+        background-color: rgba(28, 28, 28, 0.6);
+        filter: blur(1px);
+        -o-transition: filter 0.2s, background-color 0.2s;
+        transition: filter 0.2s, background-color 0.2s;
+    }
+
+    /* многопользовательские беседы в группах */ 
+	.PopupHeader__backBtn:hover {
+		background-color: #2c2c2c;
+	}
+	
+	.Select__control {
+		color: #fff;
+	}
+	
+	.SubmitArea {
+		border-top: 1px solid #2c2c2c;
+		padding: 14px 20px;
+		background: #1c1c1c;
+	}
+	
+	.ChatSettingsInvitationLink {
+		background: #1c1c1c;
+	}
+	
+	.Input[readonly] {
+		background: #121212;
+	}
+	
+	.thumbed_link--chat-invitation {
+		background: #1c1c1c;
+	}
+	
+	.thumbed_link__thumb {
+		background-color: #1c1c1c;
+	}
+	
+	.groups_edit_chats .groups_edit_chats_list__item .groups_edit_chats_list__item__extra .settings_icon {
+        background: url(https://i.imgur.com/PIa2P9B.png) no-repeat 0 -56px;
+    }
+	
+	.groups_edit_chats .groups_chats_promo .apps_group_catalog_promo_header {
+		color: #fff;
+	}
+	
+	.ChatCreation__title {
+		color: #fff;
+	}
+	
+	.Modal__header--blue {
+		color: #fff;
+		background-color: #181818;
+		border-bottom: 1px solid #181818;
+	}
+	
+	.Button--tertiary {
+		color: #ddd;
+	}
+	
+	.groups_edit_chats .groups_edit_chats_list__item .groups_edit_chats_list__item__text .groups_edit_chats_list__item__text__inner .groups_edit_chats_list__item__text__inner__content {
+		color: #fff;
+	}
+	
+	.groups_edit_chats .groups_edit_chats_list__item.groups_edit_chats_list__item--setting .groups_edit_chats_list__item__text .groups_edit_chats_list__item__text__inner .groups_edit_chats_list__item__text__inner__content {
+		color: #ddd;
+	}	
+	
+	textarea.EditableLabel__textarea {
+		background: #2c2c2c;
+	}
+	
+	.Modal__footer {
+		border-top: 1px solid #2c2c2c;
+		background-color: #1c1c1c;
+		box-sizing: border-box;
+	}
+	
+	.ChatCreation__content {
+		box-shadow: 0 1px #1c1c1c;
+		background: #1c1c1c;
+	}
 }
