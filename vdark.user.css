@@ -17,6 +17,10 @@
 
 @-moz-document domain("vk.com") {
     if linkColors == blue {
+	.MessageForward__radio--selected:after {
+		background: #72aef6;
+	}
+
         .audio_row .audio_row__performers a {
             color: #72aef6;
         }
@@ -1090,6 +1094,10 @@
             color: #72aef6;
         }
     } else if linkColors == red {
+	.MessageForward__radio--selected:after {
+	    background: #f67288;
+	}	    
+	    
         .audio_row .audio_row__performers a {
             color: #f67288;
         }
@@ -2163,6 +2171,10 @@
             color: #f67288;
         }
     } else if linkColors == purple {
+	.MessageForward__radio--selected:after {
+	    background: #be71f5;
+	}		    
+	    
         .audio_row .audio_row__performers a {
             color: #be71f5;
         }
@@ -3236,6 +3248,10 @@
             color: #be71f5;
         }
     } else if linkColors == green {
+	.MessageForward__radio--selected:after {
+	    background: #71f59d;
+	}	    
+	    
         .audio_row .audio_row__performers a {
             color: #71f59d;
         }
@@ -12544,4 +12560,20 @@
 		box-shadow: 0 1px #1c1c1c;
 		background: #1c1c1c;
 	}
+	
+	/* ресенд диалогов из сообщества в личные сообщения */
+		.MessageForward__footer {
+		background: #181818;
+		border-top: 1px solid #1c1c1c;
+	}
+	
+	.MessageForward__radio {
+		border: 1px solid #4c4c4c;
+		background: #1c1c1c;
+	}
+	
+	/* эта функция вынесена в linkColors */
+	/*.MessageForward__radio--selected:after {
+		background: #5181b8;
+	}*/
 }
