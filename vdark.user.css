@@ -12505,4 +12505,8 @@
     .stats_cont_browse_tile path:first-of-type {
         fill: #121212!important
     }
+    
+    .stats_browse_filter .ms_item_more_label {
+        background-position: right 7px;
+    }
 }
