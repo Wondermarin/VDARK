@@ -13505,4 +13505,42 @@
     .landing_testing_product_form_note {
         color: #999;
     }
+	
+/* шаблон сообщений для администраторов групп (сообщения) */
+    .page_name, h1.page_name {
+        color: #fff;
+    }
+	
+    .TemplatesDropDown__container {
+        background: #121212;
+        border: 1px solid #121212;
+    }
+
+    .TemplatesDropDown__container:after {
+        border-top-color: #121212;
+    }
+	
+    .TemplatesSettings__item-name {
+        color: white;
+    }
+	
+    .TemplatesSettings__footer {
+        background-color: #181818;
+	border-top: 1px solid #252525;
+    }
+	
+    .TemplatesSettings__content {
+	background: #1c1c1c;
+    }
+	
+    .TemplatesSettings div.TemplatesSettings__input, 
+    .TemplatesSettings div.TemplatesSettings__textarea {
+        border: 1px solid #252525;
+        background: #2c2c2c;
+	color: #fff;
+    }
+	
+    .Button--secondary {
+	color: #fff;
+    }	
 }
