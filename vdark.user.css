@@ -1243,6 +1243,10 @@
         .TemplatesSettings__not-found-container span.Link {
             color: #72aef6;
         }
+        
+        .story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper:after {
+            border-color: #72aef6;
+        }
     } else if linkColors == red {
         .audio_row .audio_row__performers a {
             color: #f67288;
@@ -2469,6 +2473,10 @@
         
         .TemplatesSettings__not-found-container span.Link {
             color: #f67288;
+        }
+        
+        .story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper:after {
+            border-color: #f67288;
         }
     } else if linkColors == purple {
         .audio_row .audio_row__performers a {
@@ -3697,6 +3705,10 @@
         .TemplatesSettings__not-found-container span.Link {
             color: #be71f5;
         }
+        
+        .story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper:after {
+            border-color: #be71f5;
+        }
     } else if linkColors == green {
         .audio_row .audio_row__performers a {
             color: #71f59d;
@@ -4923,6 +4935,10 @@
         
         .TemplatesSettings__not-found-container span.Link {
             color: #71f59d;
+        }
+        
+        .story_feed_new_item.stories_feed_preview_item .stories_feed_preview_author .stories_feed_preview_authors_wrapper:after {
+            border-color: #71f59d;
         }
     }
     
