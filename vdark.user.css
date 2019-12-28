@@ -13289,6 +13289,10 @@
         color: #999;
     }
     
+    .page_name, h1.page_name {
+        color: #fff;
+    }
+    
     /* Blog */
     
     .blog_entry_title {
