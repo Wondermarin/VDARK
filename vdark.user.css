@@ -1239,6 +1239,10 @@
         .TemplatesSettings__footer span.Link {
             color: #72aef6;
         }
+        
+        .TemplatesSettings__not-found-container span.Link {
+            color: #72aef6;
+        }
     } else if linkColors == red {
         .audio_row .audio_row__performers a {
             color: #f67288;
@@ -2460,6 +2464,10 @@
         }
 
         .TemplatesSettings__footer span.Link {
+            color: #f67288;
+        }
+        
+        .TemplatesSettings__not-found-container span.Link {
             color: #f67288;
         }
     } else if linkColors == purple {
@@ -3685,6 +3693,10 @@
         .TemplatesSettings__footer span.Link {
             color: #be71f5;
         }
+        
+        .TemplatesSettings__not-found-container span.Link {
+            color: #be71f5;
+        }
     } else if linkColors == green {
         .audio_row .audio_row__performers a {
             color: #71f59d;
@@ -4906,6 +4918,10 @@
         }
 
         .TemplatesSettings__footer span.Link {
+            color: #71f59d;
+        }
+        
+        .TemplatesSettings__not-found-container span.Link {
             color: #71f59d;
         }
     }
@@ -13258,6 +13274,10 @@
     
     .TemplatesSettings__item {
         border-bottom-color: #2c2c2c;
+    }
+    
+    .TemplatesSettings__not-found-container {
+        color: #999;
     }
     
     /* Blog */
