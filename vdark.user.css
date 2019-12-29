@@ -1183,14 +1183,6 @@
         .MessageForward__radio--selected:after {
             background: #72aef6;
         }
-        
-        .bt_report_title_link {
-            color: #72aef6;
-        }
-
-        .bt_report_info_details a {
-            color: #72aef6;
-        }
 
         .bt_report_one_info_row_value a {
             color: #72aef6;
@@ -1298,6 +1290,30 @@
 
         .page_photo.page_action_menu_groups .page_actions_item.group_send_msg_status_block:before {
             background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Cpath%20d%3D%22M9.8205%2017.927c-.9375.855-2.519%201.559-4.7444%202.112a.2852.2852%200%200%201-.3182-.415v.0001c.8366-1.51%201.3306-2.7108%201.482-3.6024C4.853%2014.7455%204%2013.0095%204%2011.0967%204%207.1774%207.5817%204%2012%204s8%203.1773%208%207.0968c0%203.9194-3.5817%207.0967-8%207.0967a8.962%208.962%200%200%201-2.1795-.2666z%22%20id%3D%22a%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke%3D%22%2372aef6%22%3E%3Cpath%20d%3D%22M9.9542%2018.472c-1.0224.8397-2.6067%201.5178-4.7575%202.0523a.7852.7852%200%200%201-.8762-1.1425c.731-1.3195%201.1888-2.3867%201.3749-3.1885C4.2951%2014.8108%203.5%2013.0109%203.5%2011.0968%203.5%206.887%207.318%203.5%2012%203.5s8.5%203.387%208.5%207.5968c0%204.2097-3.818%207.5967-8.5%207.5967a9.4885%209.4885%200%200%201-2.0458-.2214z%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M5.113%2019.8086a30.2978%2030.2978%200%200%201-.0052.0093.115.115%200%200%200%20.0112-.0287zm.122-.2226c2.0316-.5278%203.4716-1.1845%204.316-1.9546l.1585-.1446.2082.0521A8.562%208.562%200%200%200%2012%2017.7935c4.2073%200%207.6-3.0096%207.6-6.6967C19.6%207.4096%2016.2073%204.4%2012%204.4s-7.6%203.0096-7.6%206.6968c0%201.747.763%203.3904%202.1108%204.6305l.1599.1472-.0364.2142c-.1524.8972-.6194%202.059-1.3994%203.4973z%22%20stroke-linejoin%3D%22square%22%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+        }
+        
+        .no_rows a {
+            color: #72aef6;
+        }
+
+        .bt_report_fav.bt_report_fav_checked, .bt_report_fav_checked .bt_report_fav, .bt_report_row:hover .bt_report_fav.bt_report_fav_checked {
+            background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%2372aef6%22%20d%3D%22M5.5.5c.3-.7.7-.7%201%200l1.5%203.5%203.3.3c.7.1.9.5.3%201l-2.6%202.3%201%203.7c.2.7-.1.9-.7.5l-3.3-2.4-3.3%202.4c-.6.4-.9.2-.7-.5l1-3.7-2.6-2.3c-.6-.5-.4-.9.3-1l3.3-.3%201.5-3.5z%22%2F%3E%3C%2Fsvg%3E') 50% no-repeat;
+        }
+
+        .bt_prod_one_descr a {
+            color: #72aef6;
+        }
+
+        .bt_prod_one_actions a:not([class]) {
+            color: #72aef6;
+        }
+
+        .bt_product_row_join__note a {
+            color: #72aef6;
+        }
+
+        .msg_multiline a {
+            color: #72aef6;
         }
     } else if linkColors == red {
         .audio_row .audio_row__performers a {
@@ -2466,14 +2482,6 @@
         .MessageForward__radio--selected:after {
             background: #f67288;
         }
-        
-        .bt_report_title_link {
-            color: #f67288;
-        }
-
-        .bt_report_info_details a {
-            color: #f67288;
-        }
 
         .bt_report_one_info_row_value a {
             color: #f67288;
@@ -2581,6 +2589,30 @@
 
         .page_photo.page_action_menu_groups .page_actions_item.group_send_msg_status_block:before {
             background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Cpath%20d%3D%22M9.8205%2017.927c-.9375.855-2.519%201.559-4.7444%202.112a.2852.2852%200%200%201-.3182-.415v.0001c.8366-1.51%201.3306-2.7108%201.482-3.6024C4.853%2014.7455%204%2013.0095%204%2011.0967%204%207.1774%207.5817%204%2012%204s8%203.1773%208%207.0968c0%203.9194-3.5817%207.0967-8%207.0967a8.962%208.962%200%200%201-2.1795-.2666z%22%20id%3D%22a%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke%3D%22%23f67288%22%3E%3Cpath%20d%3D%22M9.9542%2018.472c-1.0224.8397-2.6067%201.5178-4.7575%202.0523a.7852.7852%200%200%201-.8762-1.1425c.731-1.3195%201.1888-2.3867%201.3749-3.1885C4.2951%2014.8108%203.5%2013.0109%203.5%2011.0968%203.5%206.887%207.318%203.5%2012%203.5s8.5%203.387%208.5%207.5968c0%204.2097-3.818%207.5967-8.5%207.5967a9.4885%209.4885%200%200%201-2.0458-.2214z%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M5.113%2019.8086a30.2978%2030.2978%200%200%201-.0052.0093.115.115%200%200%200%20.0112-.0287zm.122-.2226c2.0316-.5278%203.4716-1.1845%204.316-1.9546l.1585-.1446.2082.0521A8.562%208.562%200%200%200%2012%2017.7935c4.2073%200%207.6-3.0096%207.6-6.6967C19.6%207.4096%2016.2073%204.4%2012%204.4s-7.6%203.0096-7.6%206.6968c0%201.747.763%203.3904%202.1108%204.6305l.1599.1472-.0364.2142c-.1524.8972-.6194%202.059-1.3994%203.4973z%22%20stroke-linejoin%3D%22square%22%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+        }
+        
+        .no_rows a {
+            color: #f67288;
+        }
+
+        .bt_report_fav.bt_report_fav_checked, .bt_report_fav_checked .bt_report_fav, .bt_report_row:hover .bt_report_fav.bt_report_fav_checked {
+            background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%23f67288%22%20d%3D%22M5.5.5c.3-.7.7-.7%201%200l1.5%203.5%203.3.3c.7.1.9.5.3%201l-2.6%202.3%201%203.7c.2.7-.1.9-.7.5l-3.3-2.4-3.3%202.4c-.6.4-.9.2-.7-.5l1-3.7-2.6-2.3c-.6-.5-.4-.9.3-1l3.3-.3%201.5-3.5z%22%2F%3E%3C%2Fsvg%3E') 50% no-repeat;
+        }
+
+        .bt_prod_one_descr a {
+            color: #f67288;
+        }
+
+        .bt_prod_one_actions a:not([class]) {
+            color: #f67288;
+        }
+
+        .bt_product_row_join__note a {
+            color: #f67288;
+        }
+
+        .msg_multiline a {
+            color: #f67288;
         }
     } else if linkColors == purple {
         .audio_row .audio_row__performers a {
@@ -3749,14 +3781,6 @@
         .MessageForward__radio--selected:after {
             background: #be71f5;
         }
-        
-        .bt_report_title_link {
-            color: #be71f5;
-        }
-
-        .bt_report_info_details a {
-            color: #be71f5;
-        }
 
         .bt_report_one_info_row_value a {
             color: #be71f5;
@@ -3864,6 +3888,30 @@
 
         .page_photo.page_action_menu_groups .page_actions_item.group_send_msg_status_block:before {
             background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Cpath%20d%3D%22M9.8205%2017.927c-.9375.855-2.519%201.559-4.7444%202.112a.2852.2852%200%200%201-.3182-.415v.0001c.8366-1.51%201.3306-2.7108%201.482-3.6024C4.853%2014.7455%204%2013.0095%204%2011.0967%204%207.1774%207.5817%204%2012%204s8%203.1773%208%207.0968c0%203.9194-3.5817%207.0967-8%207.0967a8.962%208.962%200%200%201-2.1795-.2666z%22%20id%3D%22a%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke%3D%22%23be71f5%22%3E%3Cpath%20d%3D%22M9.9542%2018.472c-1.0224.8397-2.6067%201.5178-4.7575%202.0523a.7852.7852%200%200%201-.8762-1.1425c.731-1.3195%201.1888-2.3867%201.3749-3.1885C4.2951%2014.8108%203.5%2013.0109%203.5%2011.0968%203.5%206.887%207.318%203.5%2012%203.5s8.5%203.387%208.5%207.5968c0%204.2097-3.818%207.5967-8.5%207.5967a9.4885%209.4885%200%200%201-2.0458-.2214z%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M5.113%2019.8086a30.2978%2030.2978%200%200%201-.0052.0093.115.115%200%200%200%20.0112-.0287zm.122-.2226c2.0316-.5278%203.4716-1.1845%204.316-1.9546l.1585-.1446.2082.0521A8.562%208.562%200%200%200%2012%2017.7935c4.2073%200%207.6-3.0096%207.6-6.6967C19.6%207.4096%2016.2073%204.4%2012%204.4s-7.6%203.0096-7.6%206.6968c0%201.747.763%203.3904%202.1108%204.6305l.1599.1472-.0364.2142c-.1524.8972-.6194%202.059-1.3994%203.4973z%22%20stroke-linejoin%3D%22square%22%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+        }
+        
+        .no_rows a {
+            color: #be71f5;
+        }
+
+        .bt_report_fav.bt_report_fav_checked, .bt_report_fav_checked .bt_report_fav, .bt_report_row:hover .bt_report_fav.bt_report_fav_checked {
+            background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%23be71f5%22%20d%3D%22M5.5.5c.3-.7.7-.7%201%200l1.5%203.5%203.3.3c.7.1.9.5.3%201l-2.6%202.3%201%203.7c.2.7-.1.9-.7.5l-3.3-2.4-3.3%202.4c-.6.4-.9.2-.7-.5l1-3.7-2.6-2.3c-.6-.5-.4-.9.3-1l3.3-.3%201.5-3.5z%22%2F%3E%3C%2Fsvg%3E') 50% no-repeat;
+        }
+
+        .bt_prod_one_descr a {
+            color: #be71f5;
+        }
+
+        .bt_prod_one_actions a:not([class]) {
+            color: #be71f5;
+        }
+
+        .bt_product_row_join__note a {
+            color: #be71f5;
+        }
+
+        .msg_multiline a {
+            color: #be71f5;
         }
     } else if linkColors == green {
         .audio_row .audio_row__performers a {
@@ -5032,14 +5080,6 @@
         .MessageForward__radio--selected:after {
             background: #71f59d;
         }
-        
-        .bt_report_title_link {
-            color: #71f59d;
-        }
-
-        .bt_report_info_details a {
-            color: #71f59d;
-        }
 
         .bt_report_one_info_row_value a {
             color: #71f59d;
@@ -5147,6 +5187,30 @@
 
         .page_photo.page_action_menu_groups .page_actions_item.group_send_msg_status_block:before {
             background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Cpath%20d%3D%22M9.8205%2017.927c-.9375.855-2.519%201.559-4.7444%202.112a.2852.2852%200%200%201-.3182-.415v.0001c.8366-1.51%201.3306-2.7108%201.482-3.6024C4.853%2014.7455%204%2013.0095%204%2011.0967%204%207.1774%207.5817%204%2012%204s8%203.1773%208%207.0968c0%203.9194-3.5817%207.0967-8%207.0967a8.962%208.962%200%200%201-2.1795-.2666z%22%20id%3D%22a%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cpath%20opacity%3D%22.1%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke%3D%22%2371f59d%22%3E%3Cpath%20d%3D%22M9.9542%2018.472c-1.0224.8397-2.6067%201.5178-4.7575%202.0523a.7852.7852%200%200%201-.8762-1.1425c.731-1.3195%201.1888-2.3867%201.3749-3.1885C4.2951%2014.8108%203.5%2013.0109%203.5%2011.0968%203.5%206.887%207.318%203.5%2012%203.5s8.5%203.387%208.5%207.5968c0%204.2097-3.818%207.5967-8.5%207.5967a9.4885%209.4885%200%200%201-2.0458-.2214z%22%2F%3E%3Cpath%20stroke-width%3D%22.8%22%20d%3D%22M5.113%2019.8086a30.2978%2030.2978%200%200%201-.0052.0093.115.115%200%200%200%20.0112-.0287zm.122-.2226c2.0316-.5278%203.4716-1.1845%204.316-1.9546l.1585-.1446.2082.0521A8.562%208.562%200%200%200%2012%2017.7935c4.2073%200%207.6-3.0096%207.6-6.6967C19.6%207.4096%2016.2073%204.4%2012%204.4s-7.6%203.0096-7.6%206.6968c0%201.747.763%203.3904%202.1108%204.6305l.1599.1472-.0364.2142c-.1524.8972-.6194%202.059-1.3994%203.4973z%22%20stroke-linejoin%3D%22square%22%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+        }
+        
+        .no_rows a {
+            color: #71f59d;
+        }
+
+        .bt_report_fav.bt_report_fav_checked, .bt_report_fav_checked .bt_report_fav, .bt_report_row:hover .bt_report_fav.bt_report_fav_checked {
+            background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%2371f59d%22%20d%3D%22M5.5.5c.3-.7.7-.7%201%200l1.5%203.5%203.3.3c.7.1.9.5.3%201l-2.6%202.3%201%203.7c.2.7-.1.9-.7.5l-3.3-2.4-3.3%202.4c-.6.4-.9.2-.7-.5l1-3.7-2.6-2.3c-.6-.5-.4-.9.3-1l3.3-.3%201.5-3.5z%22%2F%3E%3C%2Fsvg%3E') 50% no-repeat;
+        }
+
+        .bt_prod_one_descr a {
+            color: #71f59d;
+        }
+
+        .bt_prod_one_actions a:not([class]) {
+            color: #71f59d;
+        }
+
+        .bt_product_row_join__note a {
+            color: #71f59d;
+        }
+
+        .msg_multiline a {
+            color: #71f59d;
         }
     }
     
@@ -6258,7 +6322,7 @@
     }
     
     .no_rows {
-        color: #aaa;
+        color: #aaa !important;
     }
     
     .pv_cont .pv_closed_commments_placeholder {
@@ -9217,7 +9281,7 @@
     }
     
     .info_msg {
-        background: #2c2c2c url(https://i.imgur.com/xECy6XD.png) no-repeat 12px 12px;
+        background: #252525 url(https://i.imgur.com/xECy6XD.png) no-repeat 12px 12px;
     }
     
     .im-prebody img {
@@ -13794,12 +13858,14 @@
     }
 
     .bt_tag_label {
-        background: #3c3c3c;
         color: #ddd;
+        background: #1c1c1c;
+        border: 1px solid #3c3c3c;
+        border-radius: 15px;
     }
 
     .bt_report_tags_clickable .bt_tag_label:hover {
-        background: #4c4c4c;
+        background: #252525;
     }
 
     .bt_report_info {
@@ -13947,6 +14013,58 @@
     }
 
     .landing_testing_product_form_note {
+        color: #999;
+    }
+    
+    .bt_report_fav {
+        background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%23999%22%20d%3D%22M5.5.5c.3-.7.7-.7%201%200l1.5%203.5%203.3.3c.7.1.9.5.3%201l-2.6%202.3%201%203.7c.2.7-.1.9-.7.5l-3.3-2.4-3.3%202.4c-.6.4-.9.2-.7-.5l1-3.7-2.6-2.3c-.6-.5-.4-.9.3-1l3.3-.3%201.5-3.5z%22%2F%3E%3C%2Fsvg%3E') 50% no-repeat;
+    }
+    
+    .bt_product_row.is_over .bt_prod_link {
+        color: #aaa;
+    }
+
+    .bt_prod_block.is_over .over_icon {
+        background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%22100%25%22%20width%3D%22100%25%22%20version%3D%221.1%22%20viewBox%3D%220%200%203.9687499%203.9687501%22%3E%0A%20%3Cg%20transform%3D%22translate(0%20-293.03)%22%3E%0A%20%20%3Cg%3E%0A%20%20%20%3Crect%20rx%3D%22.25212%22%20ry%3D%22.33479%22%20height%3D%221.9006%22%20width%3D%222.8637%22%20stroke%3D%22%231c1c1c%22%20y%3D%22294.73%22%20x%3D%22.55250%22%20stroke-width%3D%22.75036%22%20fill%3D%22%231c1c1c%22%2F%3E%0A%20%20%20%3Cellipse%20stroke-opacity%3D%22.94118%22%20fill-opacity%3D%220%22%20rx%3D%22.95104%22%20ry%3D%22.99228%22%20stroke%3D%22%231c1c1c%22%20cy%3D%22294.7%22%20cx%3D%221.9844%22%20stroke-width%3D%221.3483%22%2F%3E%0A%20%20%20%3Cellipse%20rx%3D%22.95104%22%20ry%3D%22.99228%22%20stroke%3D%22%23aaa%22%20cy%3D%22294.7%22%20cx%3D%221.9844%22%20stroke-width%3D%220.56%22%20fill%3D%22none%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Crect%20stroke-opacity%3D%220%22%20rx%3D%22.25212%22%20ry%3D%22.33479%22%20height%3D%221.9006%22%20width%3D%222.8637%22%20y%3D%22294.73%22%20x%3D%22.55250%22%20fill%3D%22%23aaa%22%2F%3E%0A%20%3C%2Fg%3E%0A%3C%2Fsvg%3E') no-repeat;
+    }
+    
+    .bt_prod_block.is_over .bt_prod_one_title {
+        color: #aaa;
+    }
+    
+    .flat_button.bt_flat_button_run:after {
+        background: url('https://i.imgur.com/mHXKoaD.png') no-repeat 0 0;
+    }
+    
+    .bt_prod_one_actions {
+        color: #999;
+    }
+    
+    .bt_product_row_join__note {
+        color: #999;
+    }
+    
+    .bt_hform_label {
+        color: #999;
+    }
+    
+    .bt_hform_submit_block {
+        border-top-color: #2c2c2c;
+    }
+    
+    .BugtrackerDevice.hoverable:hover {
+        background: #252525;
+    }
+    
+    .bt_report_title_link {
+        color: #ddd;
+    }
+    
+    .bt_report_info_details a {
+        color: #999;
+    }
+    
+    .ui_rmenu_extra_label {
         color: #999;
     }
 }
