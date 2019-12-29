@@ -11,15 +11,10 @@ Perhaps the best dark theme for VK
 
 ## Quick Installation
 
-**Stylus (Recommend):**
+**Stylus:**
 
 1. Install [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
 2. [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0).
-
-Stylish:
-
-1. Install [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe).
-2. Install the theme on [userstyles](https://userstyles.org/styles/167283).
 
 ## License
 
