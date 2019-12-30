@@ -14067,4 +14067,42 @@
     .ui_rmenu_extra_label {
         color: #999;
     }
+	
+    /*vk.cc vk.com/cc fix*/
+    /*можно вынести в linkColors или оставить #fff или #ddd*/
+    /*.shorten_list_qr_link {
+        color: #fff;
+    }*/ 
+	
+    /*можно вынести в linkColors*/
+    /*.private_link_icon {
+        background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2212%22%20height%3D%2214…%22%20fill%3D%22%23A9AFB8%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E) 50% no-repeat;
+    }*/
+	
+   /*можно вынести в linkColors*/
+   /*.shorten_list_stats_value {
+      color: #818d99;
+   }
+	
+   .shorten_list_stats_icon {
+      background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.or…2%20fill%3D%22%23828A99%22%20style%3D%22opacity%3A0.7%22%2F%3E%3C%2Fsvg%3E) 50% no-repeat;
+   }*/
+
+   .shorten_qr_box_link {
+      color: whitesmoke;
+   }	
+	
+   .shortened_link a {
+      color: whitesmoke;
+   }
+	
+   .shorten_list_body_text {
+      color: #ddd;
+   }
+	
+   .shorten_list_row {
+      cursor: pointer;
+      background: #1c1c1c;
+      border-bottom: 1px solid #2c2c2c;
+    }	
 }
