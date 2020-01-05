@@ -13751,6 +13751,10 @@
         color: #999;
     }
     
+    .ui_gallery_wall_cards .wall_card__body {
+        border-color: #2c2c2c;
+    }
+    
     /* Blog */
     
     .blog_entry_title {
