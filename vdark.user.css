@@ -5,7 +5,7 @@
 @homepageURL  https://github.com/Wondermarin/VDARK
 @updateURL    https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0
 @supportURL   https://github.com/Wondermarin/VDARK
-@version      2.3.6
+@version      2.3.7
 @author       Wondermarin (https://wondermarin.com)
 @license      CC-BY-NC-4.0
 @preprocessor stylus
@@ -13753,6 +13753,14 @@
     
     .ui_gallery_wall_cards .wall_card__body {
         border-color: #2c2c2c;
+    }
+    
+    .im-page_classic.im-page .im-page--dialogs-footer {
+        box-shadow: 1px 0 0 transparent, -1px 0 0 transparent;
+    }
+    
+    .im-page_classic.im-page .im-page--dialogs {
+        background-color: #1c1c1c;
     }
     
     /* Blog */
