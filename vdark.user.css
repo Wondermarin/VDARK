@@ -5,7 +5,7 @@
 @homepageURL  https://github.com/Wondermarin/VDARK
 @updateURL    https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0
 @supportURL   https://github.com/Wondermarin/VDARK
-@version      2.3.7
+@version      2.3.8
 @author       Wondermarin (https://wondermarin.com)
 @license      CC-BY-NC-4.0
 @preprocessor stylus
@@ -15,7 +15,7 @@
 
 ==/UserStyle== */
 
-@-moz-document domain("vk.com") {
+@-moz-document regexp("https?://vk.com/(?!blog|!?dev|!?about|!?jobs|!?products|!?biz|!?ads|!?widget).*") {
     if linkColors == blue {
         .audio_row .audio_row__performers a {
             color: #72aef6;
@@ -13761,6 +13761,14 @@
     
     .im-page_classic.im-page .im-page--dialogs {
         background-color: #1c1c1c;
+    }
+    
+    .audio_page_layout .audio_search_wrapper {
+        background-color: #1c1c1c;   
+    }
+    
+    .audio_page_layout .audio_block {
+        box-shadow: 0 1px 0 0 #1c1c1c, 0 0 0 1px #1c1c1c;   
     }
     
     /* Blog */
