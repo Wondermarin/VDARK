@@ -1,20 +1,24 @@
-# VDARK
+<h1 aligh="center">
+    <br>
+    <img width="300" src="public/logo.svg">
+    <br>
+</h1>
 Perhaps the best dark theme for VK
 
-## Preview
-`Version 2.3 (Settings: Default)`
-
-![Страница](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/1.png "Страница")
-![Видео](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/2.png "Видео")
-![Музыка](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/3.png "Музыка")
-![Сообщества](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/4.png "Сообщества")
-
-## Quick Installation
+## Install
 
 **Stylus:**
 
 1. Install [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
-2. [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0).
+2. Install [Theme](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0).
+
+## Preview
+```console
+Version 2.4
+```
+
+<img src="public/preview/1.png">
+<img src="public/preview/2.png">
 
 ## License
 
