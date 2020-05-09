@@ -1,21 +1,17 @@
-# VDARK
-Perhaps the best dark theme for VK
+<h1 align="center">
+    <br>
+    <img width="300" src="public/logo.svg">
+    <br>
+</h1>
 
-## Preview
-`Version 2.3 (Settings: Default)`
-
-![Страница](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/1.png "Страница")
-![Видео](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/2.png "Видео")
-![Музыка](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/3.png "Музыка")
-![Сообщества](https://raw.githubusercontent.com/Wondermarin/VDARK/master/2.3/4.png "Сообщества")
-
-## Quick Installation
-
+## Install
 **Stylus:**
+1. For the theme to work, you need to install the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension.
+2. Install [Theme](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0).
 
-1. Install [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
-2. [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://dl.dropboxusercontent.com/s/faysjkwgq5n9m8a/vdark.user.css?dl=0).
+## Preview (Version 2.4.0)
+<img src="public/preview/1.png">
+<img src="public/preview/2.png">
 
 ## License
-
 Code released under the [CC-BY-NC-4.0](https://spdx.org/licenses/CC-BY-NC-4.0.html#licenseText) license.
