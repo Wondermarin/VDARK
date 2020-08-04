@@ -10882,4 +10882,9 @@
     .bt_hform_submit_block {
         border-top-color: #2c2c2c;
     }
+	.ReplyBoxDonut {
+        color: white;
+        background-color: #2C2C2C!important;
+    }
+  }
 }
