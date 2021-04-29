@@ -1,3 +1,5 @@
+# This repository is dead. Use: [a0eoc/VDARK](https://github.com/a0eoc/VDARK)
+
 <h1 align="center">
     <br>
     <img width="300" src="public/logo.svg">
